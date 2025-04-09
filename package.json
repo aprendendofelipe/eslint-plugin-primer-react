@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-primer-react",
-  "version": "6.1.6",
+  "name": "@tabnews/eslint-plugin-primer-react",
+  "version": "6.2.0-experimental.0",
   "description": "ESLint rules for Primer React",
   "main": "src/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/primer/eslint-plugin-primer-react.git"
+    "url": "git+https://github.com/aprendendofelipe/eslint-plugin-primer-react.git"
   },
   "keywords": [
     "eslint",
@@ -21,9 +21,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/primer/eslint-plugin-primer-react/issues"
+    "url": "https://github.com/aprendendofelipe/eslint-plugin-primer-react/issues"
   },
-  "homepage": "https://github.com/primer/eslint-plugin-primer-react#readme",
+  "homepage": "https://github.com/aprendendofelipe/eslint-plugin-primer-react#readme",
   "peerDependencies": {
     "eslint": "^8 || ^9"
   },
