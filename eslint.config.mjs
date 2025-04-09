@@ -1,9 +1,9 @@
-const eslintJs = require('@eslint/js')
-const github = require('eslint-plugin-github')
-const globals = require('globals')
-const pluginJest = require('eslint-plugin-jest')
+import eslintJs from '@eslint/js'
+import github from 'eslint-plugin-github'
+import globals from 'globals'
+import pluginJest from 'eslint-plugin-jest'
 
-module.exports = [
+const config = [
   github.getFlatConfigs().recommended,
   eslintJs.configs.recommended,
   {
@@ -17,7 +17,7 @@ module.exports = [
       },
     },
     rules: {
-      'importPlugin/no-commonjs': 'off',
+      'import/no-commonjs': 'off',
       'no-shadow': 'off',
       'no-unused-vars': [
         'error',
@@ -37,16 +37,11 @@ module.exports = [
     },
   },
   {
-    files: ['.eslint.config.js', '.markdownlint-cli2.cjs'],
+    files: ['.markdownlint-cli2.cjs'],
     rules: {
-      'filenames/match-regex': 'off',
       'github/filenames-match-regex': 'off',
     },
   },
-  {
-    files: ['src/url.js', 'src/rules/new-color-css-vars.js'],
-    rules: {
-      'importPlugin/extensions': 'off',
-    },
-  },
 ]
+
+export default config
