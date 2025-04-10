@@ -1,4 +1,6 @@
-# eslint-plugin-primer-react
+https://github.com/primer/eslint-plugin-primer-react/pull/326
+
+# eslint-plugin-primer-react (experimental)
 
 [![npm package](https://img.shields.io/npm/v/eslint-plugin-primer-react.svg)](https://www.npmjs.com/package/eslint-plugin-primer-react)
 
